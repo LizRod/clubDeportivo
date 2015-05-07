@@ -1,0 +1,681 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+<script src="js/Funciones.js" type="text/javascript">
+</script>
+
+</head> 
+<body> 
+
+<div data-role="page" id="Menu">
+	<p>.</p>
+	<p>&nbsp;</p>
+	<div data-role="header">
+	  <h1>Menu principal</h1>
+	</div>
+	<div data-role="content" >	
+		<ul data-role="listview">
+			<li><a href="#Historia" data-transition="flip">Club Guadalajara</a></li>
+            <li><a href="#Fotos" data-transition="pop">Galeria</a></li>
+			<li><a href="#Equipo" data-transition="fade">Jugadores</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" >
+    <h4>Pie de página</h4>
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#inicio" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+         </li>
+           <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda
+          </a>
+         </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          Contacto
+          </a>
+         </li>
+         </ul>
+    </div>
+    </div>
+</div>
+
+
+
+<div data-role="page" id="Historia">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> BACK </a>
+		<h1>Página dos</h1>
+	</div>
+	<div data-role="content" align="center">
+    
+    <p>Desliza sobre el cuadro de texto.</p>
+    	<p style="border:1px solid black;height:200px;width;200px;"></p>
+        <p><span style="color:yellow"></span></p>
+    	
+	<a href="#Chivas" data-rel="popup" data-position-to="window">
+    <img src="Imagenes/chivitas.jpg" alt="Lea" style="width:100px";></a>
+    
+    <div data-role="popup" id="Chivas">
+     <p>¡Club Deportivo Guadalajara!</p>
+     <a href="#LeaMichele" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+     <img src="Imagenes/chivitas.jpg" style="width:800px;height:600px;" alt="Lea"> </div>
+
+
+   </div>
+    <center>
+    
+    <table width="250" border="1">
+  <tr bgcolor="#FF0000">
+    <td>Nombre completo</td>
+    <td>Nacimiento</td>
+    <td>capacidad en el estadio</td>
+    <td>posecion</td>
+    <td>Titulos optenidos</td>
+    <td>Dueño Fundador:</td>
+    <td>Estadistica</td>
+  </tr>
+  <tr bgcolor="#0066CC">
+    <td>Club DEportivo Guadalajara </td>
+    <td>8 de mayo de 1906, Guadalajara</td>
+    <td>10000 aficionados</td>
+    <td>Lider General 2015</td>
+    <td>11 titulos , 4 copas Mx</td>
+    <td>Edgar Everaert</td>
+    <td>Establecido en 1ra divicion.</td>
+  </tr>
+</table>
+</center>
+
+
+
+    
+    </center>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#inicio" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+         </li>
+           <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda
+          </a>
+         </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          Contacto
+          </a>
+         </li>
+         </ul>
+	</div>
+    </div>
+</div>
+
+<div data-role="page" id="Fotos">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> BACK </a>
+		<h1>Página tres</h1>
+	</div>
+	<div data-role="content">	
+		Contenido
+<center>
+  <table width="707" border="1">
+  <tr>
+    <td align="center" bgcolor="#33CCFF">Club Guadalajara Chivas </td>
+    </tr>
+  </table>
+  
+  <table width="200" border="1">
+  <tr>
+    <td> <img src="Imagenes/chivas2015.jpg" width="160" height="200" alt="V&amp;L"></td>
+    <td> <img src="Imagenes/chivitas.jpg" width="160" height="200" alt="CBTis"></td>
+    <td> <img src="Imagenes/ligabancomermx.jpg" width="160" height="200" alt="Fintis"> </td>
+    <td> <img src="Imagenes/ChivasRule.jpg" width="200" height="150" alt="ChivasRule"></td>
+    
+    </tr>
+</table><p>
+
+<table width="785" border="1">
+     <tr>
+    <td align="center" bgcolor="#CC99FF">Area chisvista </td>
+    </tr>
+  </table>
+  <tr>
+    <td><img src="Imagenes/Chivas.jpg" width="160" height="200" alt="Escudo sagrado"></td>
+    <td><img src="Imagenes/chivas-1.jpg" width="200" height="150" alt="chivas-1"></td>
+    <td> <img src="Imagenes/1256000715293_f.jpg" width="200" height="150" alt="rivalidad"></td>
+    <td> <img src="Imagenes/REGRESACHEPO.jpg" width="200" height="150" alt="Directivas Chivas"></td>
+  </tr>
+</table><p>
+
+<table width="707" border="1">
+  <tr>
+    <td align="center" bgcolor="#CCFF00">Salon de la fama</td> 
+  </tr>
+  </table>
+  <tr>
+    <td><img src="Imagenes/campeonatos.jpg" width="200" height="150" alt="titulos"></td>
+    <td> <img src="Imagenes/estadiorojiblanco.jpg" width="200" height="150" alt="Casa chivas"></td>
+    <td> <img src="Imagenes/omar-bravo.jpg" width="160" height="200" alt="Maximo goleador"></td>
+    <td> <img src="Imagenes/calendarioChivas.jpg" width="200" height="200" alt="Juntosvstodo"></td>
+  </tr>
+</table>
+</Center>
+    
+     </div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#inicio" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+         </li>
+           <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda
+          </a>
+         </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          Contacto
+          </a>
+         </li>
+         </ul>
+    </div>
+	</div>
+</div>
+
+<div data-role="page" id="Equipo" >
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> BACK </a>
+		<h1>Página cuatro</h1>
+	</div>
+	<div data-role="content" align="center">
+    <a href="#Chivas" data-rel="popup" data-position-to="window">
+    <img src="Imagenes/bravo.jpg" alt="23" style="width:100px";></a>
+    
+    <div data-role="popup" id="Club Chivas">
+     <p>¡Omar Bravo</p>
+     <a href="#Club CHivas" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+     <img src="Imagenes/bravo.jpg" alt="23" width="377" height="603" style="width:600px;height:800px;"> </div>	
+		Contenido
+        <center>
+          
+<table width="200" border="1">
+  <tr bgcolor="#999999">
+    <td>Nombre del jugador:</td>
+    <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#FF0000">
+    <td>Omar Bravo</td>
+    <td> Guadalajara Jalisco, 17 de marzo de 1990 (25 años)</td>
+    <td>1,68 m , 79 kg </td>
+    <td> Guadalajara mex (1992-2015)
+         liga mexicana (2004-2015)</td>
+    <td> 9, 15, 10, 9</td>
+    <td> Delantero</td>
+  </tr>
+</table>
+</center>
+
+<center>
+<img src="Imagenes/Arce.jpg" width="272" height="261" alt="11"> </div>
+</center>
+<center>
+<table width="200" border="1">
+  <tr bgcolor="#00CCCC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Nuemero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#0066FF">
+    <td>Fernando Arce</td>
+    <td> 5 de julio de 1987(edad 34), Tijuana,mexico</td>
+    <td>1.81 m , 82 kg</td>
+    <td>Tijuana Baja California</td>
+    <td> 11 </td>
+    <td> Medio, Central </td>
+  </tr>
+</table>
+</center>
+<center>
+  <img src="Imagenes/IsacBrizuela.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Isac Brizuela</td>
+    <td> Toluca Mexico, 30 de mayo de 1994 (24 años)</td>
+    <td>	1,75 m , 80 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 12, 17 </td>
+    <td>Delantero </td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/Aldo Denigris.jpg" width="240" height="299" alt="10">
+
+<table width="200" border="1">
+  <tr bgcolor="#6699CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Dorsal(es) </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#3366CC">
+    <td> Aldo Denigris</td>
+    <td> Guadalaja Jalisco Mexico, 26 de enero de 1988 (27 años)</td>
+    <td> 1,80 m , 86 kg </td>
+    <td> Club Deportivo Guadalajara(2002-presente)</td>
+    <td> 10 </td>
+    <td> Delantero</td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/arqueromichel.jpg" width="259" height="253" alt="23">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Luis Ernesto Michell</td>
+    <td>Guadalajara Mexico, 25 de abril de 1988 (32 años)</td>
+    <td>	1,75 m , 80 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 12, 17 </td>
+    <td>Arquero </td>
+  </tr>
+</table>
+</center>
+<center>
+
+ <img src="Imagenes/RaulLopez.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Raul Lopez Gomez</td>
+    <td> Guadalajara Mexico, 6 de octubre de 1993(24 años)</td>
+    <td>	1,75 m , 80 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 12, 17 </td>
+    <td>Delantero </td>
+  </tr>
+</table>
+</center>
+<center>
+
+ <img src="Imagenes/CarlosSalcedo.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Carlos Salcedo</td>
+    <td> Guadalajara Mexico,29 de septiembre de 1993 (24 años)</td>
+    <td>	1,75 m , 80 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 8 </td>
+    <td>Defensa central </td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/RafaelMarquesLugo.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Rafael Marques Lugo</td>
+    <td> Guadalajara Mexico,2 de Noviembre de 1981 (33 años)</td>
+    <td>	1,80 m , 80 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 8 </td>
+    <td>Defensa lateral Izquierda </td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/AngelReyna.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Angel Reyna</td>
+    <td> Guadalajara Mexico,2 de enero de 1981 (33 años)</td>
+    <td>	1,70 m , 76 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 8 </td>
+    <td>Defensa lateral Derecha </td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/MarcoFabian.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Marco Fabian de la mora</td>
+    <td> Guadalajara Mexico,21 de julio de 1989 (25 años)</td>
+    <td>	1,70 m , 76 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 18 </td>
+    <td>Delantero </td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/CarlosFierro.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Carlos Fierro </td>
+    <td> Ocotlan Mexico,24 de julio de 1994(23 años)</td>
+    <td>	1,70 m , 76 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 15 </td>
+    <td>Delantero </td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/Carlossacido.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Carlos salcido </td>
+    <td> ahome Mexico,2 de abril de 1980(35 años)</td>
+    <td>	1,70 m , 76 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 20 </td>
+    <td>Delantero </td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/ErickTorresPadilla.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Erick Torres Padilla </td>
+    <td> D:F Mexico,5 de julio de 1994(23 años)</td>
+    <td>	1,73 m , 76 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 14 </td>
+    <td>Delantero </td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/MiguelAnguelPonce.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Miguel Anguel Ponce </td>
+    <td> Tijuana Mexico,5 de Diciembre de 1989(27 años)</td>
+    <td>	1,78 m , 76 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 24 </td>
+    <td>Delantero </td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/GiovanyHernandez.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Giovany Hernandez </td>
+    <td>Guadalajara Mexico,20 de marzo de 1994(23 años)</td>
+    <td>	1,72 m , 76 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 24 </td>
+    <td>Media (Central) </td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/josedavidtoledo.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>jose david toledo </td>
+    <td>Guerrero Mexico,20 de abril 1986(32 años)</td>
+    <td>	1,7 m , 76 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 24 </td>
+    <td>Defenza) </td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/JairPereira.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Jair Pereira </td>
+    <td>Guerrero Mexico,25 de abril 1989(29 años)</td>
+    <td>	1,76 m , 76 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 24 </td>
+    <td> Defenza lateral </td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/NestorVidrio.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Nestor Vidrio </td>
+    <td>D.F Mexico,6 de julio 1989(29 años)</td>
+    <td>	1,76 m , 76 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 24 </td>
+    <td> Delantero </td>
+  </tr>
+</table>
+</center>
+<center>
+
+<img src="Imagenes/AntonioRodriguezRomero.jpg" width="259" height="253" alt="12">
+  <table width="200" border="1">
+    <tr bgcolor="#0066CC">
+     <td>Nombre del jugador:</td>
+     <td>Nacimiento:</td>
+    <td> Estatura y peso:</td>
+    <td>Trayectoria:</td>
+    <td>Numero </td>
+    <td>Posicion: </td>
+  </tr>
+  <tr bgcolor="#CC9900">
+    <td>Antonio Rodriguez Romero </td>
+    <td>Guadalajara Mexico,22 de enero1994(23 años)</td>
+    <td>	1,76 m , 76 kg </td>
+    <td>Guadalajara (2014-2015)
+         Liga mexicana (2014-presente)</td>
+    <td> 2 </td>
+    <td> Arquero </td>
+  </tr>
+</table>
+</center>
+<center>
+
+
+<div data-role="footer" data-position="fixed">
+	  <div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#inicio" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+         </li>
+           <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda
+          </a>
+         </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          Contacto
+          </a>
+         </li>
+         </ul>
+    </div>
+	</div>
+</div>
+
+</body>
+</html>
